@@ -13,10 +13,6 @@ body, button{
   color: white;
 }
 
-/* body{
-  height: 200vh;
-} */
-
 .banner{
   width: 1440px;
   height: 605px;
@@ -38,12 +34,13 @@ body, button{
   width: 268px;
   height: 268px;
   margin-left: 121px;
-  align-items: center;
-}
+/*   align-items: center;
+ */}
 
 *{
   font-family: Raleway;
-  /* -webkit-background-clip: text;
+/*   text-align: center;
+ */  /* -webkit-background-clip: text;
   color: transparent;
   background-clip: text; */
 }
@@ -88,7 +85,7 @@ button{
 }
 
 h2{
-  /* width: 447px;
+/*   width: 447px;
   height: 38px; */
   font-weight: 700;
   font-size: 32px;
@@ -118,7 +115,7 @@ h2{
 #transform-world{
   width: 1440px;
   height: 363px;
-  /* margin-top: 1138px; */
+  top: 1138px;
   border-width: 1px 0 1px 0;
   border-color: #33A8DB;
   border-style: solid;
@@ -135,4 +132,37 @@ h2{
   margin-left: 198px;
   font-family: "Raleway Black";
   text-transform: lowercase;
+  text-shadow: 3px 2px #33A8DB;
+}
+
+#professional-challenges h2{
+  width: 746px;
+  height: 76px;
+  margin-left: 347px;
+  top: 1577px;
+}
+
+#professional-challenges img{
+  width: 659px;
+  height: 429px;
+  top: 1685px;
+  margin-left: 390px;
+}
+
+#professional-challenges p{
+  width: 792px;
+  height: 76px;
+  top: 2154px;
+  margin-left: 324px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 18.78px;
+  text-align: center;
+}
+
+footer{
+  width: 1440px;
+  height: 170px;
+  top: 2321px;
+  text-align: center;
 }
