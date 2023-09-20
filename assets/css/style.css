@@ -18,6 +18,8 @@ body, button{
 }
 
 .banner{
+  display: inline-block;
+  width: 100%;
   height: 605px;
   border-bottom: 1px solid #33A8DB;
   background-image: linear-gradient(
@@ -87,6 +89,9 @@ h1{
 }
 
 #course-content{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
   top: 723px;
   left: 324px;
   gap: 24px;
@@ -134,8 +139,9 @@ span{
   background-image: url("/assets/images/woman-code.png");
   background-attachment: fixed;
   background-size: 1439px 960px;
-  margin: 100px -25px 100px 0px;
+  margin: 100px -0px 100px 0px;
   padding: 200px;
+  position: relative;
 }
 
 #transform-world p{
@@ -149,12 +155,14 @@ span{
   font-weight: 900;
   font-size: 40px;
   line-height: 46.96px;
+  position: absolute;
 }
 
 #professional-challenges h2{
+  width: 800px;
   height: 76px;
-  margin-left: 248px;
   top: 1577px;
+  margin:auto;
 }
 
 #professional-challenges img{
@@ -168,7 +176,7 @@ span{
   width: 792px;
   height: 76px;
   top: 2154px;
-  margin-left: 324px;
+  margin-left: 250px;
   font-weight: 400;
   font-size: 1rem;
   line-height: 18.78px;
@@ -180,7 +188,7 @@ span{
 }
 
 footer{
-  width: 1440px;
+  width: 100%;
   height: 170px;
   text-align: center;
   border-top: 2px solid #33A8DB;
